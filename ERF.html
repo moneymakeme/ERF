@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+</head>
+<body>
+    <form >
+        <div>
+            <center><h1>Employee Registration Form</h1></center>
+        <hr>
+        <label>Firstname: </label>
+        <input type="text" name="Firstname" placeholder="Firstname" size="15" required>
+<br><br>
+<label>Middlename: </label>
+<input type="text" name="Middlename" placeholder="Middlename" size="15" required>
+<br><br>
+<label>Lastname: </label>
+<input type="text" name="Lastname" placeholder="Lastname" size="15" required>
+<br><br>
+
+  <div>
+    <label>Department:</label>
+    <select>
+        <option value="CSE">CSE</option>
+        <option value="EEE">EEE</option>
+        <option value="Civil">Civil</option>
+        <option value="ECE">ECE</option>
+        <option value="Mech">Mechanical</option>
+        <option value="Al">AI</option>
+    </select>
+  </div>
+  <br>
+
+  <div>
+    <label>Gender:</label> <br>
+    <input type="radio" value="female" name="Gender" checked>Female <br>
+    <input type="radio" value="male" name="Gender" checked>Male  <br>
+    <input type="radio" value="other" name="Gender" checked>Other  <br>
+    <input type="radio" value="Don't say" name="Gender" checked> Don't say  <br>
+  </div>
+  <br>
+
+  <label>Phone No:</label>
+      <input type="text" name="Country code" placeholder="Country code" value="+91" size="2">
+      <input type="tel" name="Phone" size="25" pattern="[0-9]{3}[0-7]{3}[0-5]{4}" placeholder="1234-57890" required>
+      <br><br>
+
+      Project Agenda:
+      <textarea cols="80" rows="5" placeholder="Project Agenda" value="Agenda" required></textarea>
+       <br> <br>
+      Currend Addres:
+      <textarea cols="80" rows="5" placeholder="Currend Addres" value="Addres" required></textarea>
+    <br><br>
+
+    <label for="myfile">Droup Your Reasume</label>
+    <input type="file" id="myfile" name="myfile">
+    <br> <br>
+
+    <label for="myfile">Droup Your Project</label>
+    <input type="file" id="myfile" name="myfile">
+    <br> <br>
+
+    <label for="email"><b>Email</b></label>
+    <input type="email" placeholder="Enter Email" name="email" required>
+    <br> <br>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <br> <br>
+    <label for="psw-repeat"><b>Re-Type Password</b></label>
+    <input type="password" placeholder="Re-Type Password" name="psw-repeat" required>
+    <br><br>
+
+    <button type="submit" class="registerbtn">Registration</button>
+</div>
+    </form>
+</body>
+</html>
